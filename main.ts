@@ -89,9 +89,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     newPlayer()
 })
 info.onLifeZero(function () {
-    game.splash("Game Over")
-    game.over(false)
     effects.starField.endScreenEffect()
+    game.over(false)
 })
 let Sharpedo: Sprite = null
 let Pizza: Sprite = null
