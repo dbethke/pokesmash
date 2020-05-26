@@ -98,7 +98,6 @@ let Pizza: Sprite = null
 let Sludge_bomb: Sprite = null
 let Weezing: Sprite = null
 effects.starField.startScreenEffect()
-music.playMelody("B A G A G F A C5 ", 120)
 info.setLife(3)
 info.setScore(0)
 game.splash("Get Ready To Rumble")
